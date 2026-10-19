@@ -95,6 +95,27 @@
       ]
     },
     {
+      "id": "PP-SC-GUI-DESIGN",
+      "path": "SOFT-CORE/GUI_DESIGN.md",
+      "enabled_by_default": false,
+      "triggers": [
+        "gui_design",
+        "ui_implementation",
+        "interface_prototyping",
+        "ui_refactor",
+        "interaction_workflow",
+        "gui_review"
+      ],
+      "higher_priority": [
+        "HARD-CORE/*",
+        "USER_JUDGE_VERSION_AUTHORITY"
+      ],
+      "activation_requires": [
+        "task_relevance",
+        "controller_activation"
+      ]
+    },
+    {
       "id": "PP-SC-GOVERNANCE",
       "path": "SOFT-CORE/GOVERNANCE.md",
       "enabled_by_default": false,
@@ -281,5 +302,5 @@
       ]
     }
   ],
-  "notes": "Existing AUTONOMOUS_ACTION is opt-in. SIGNATURES is mandatory-on-write in scope; no blanket activation of remaining modules. Modules are DRAFT under legacy 0.1 format pending migration. LEADERSHIP MATRIX is optional and cannot grant or transfer authority without a task-level delegation."
+  "notes": "Existing AUTONOMOUS_ACTION is opt-in. SIGNATURES is mandatory-on-write in scope; no blanket activation of remaining modules. Modules are DRAFT under legacy 0.1 format pending migration. LEADERSHIP MATRIX is optional and cannot grant or transfer authority without a task-level delegation. GUI_DESIGN is an optional GUI-focused Industry-Standard Feature Superset protocol, not an always-loaded HARD CORE."
 }

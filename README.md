@@ -70,6 +70,8 @@ Se agregaron 13 módulos de borrador a `SOFT-CORE/` sin alterar `AUTONOMOUS_ACTI
 - `CROSS_REFERENCES.md` — vínculos tipados y trazabilidad de referencias.
 - `SIGNATURES.md` — obligatoriedad condicional en escrituras de MD de conducta y Python.
 
+**Ampliación CHG-0005:** `GUI_DESIGN.md` — nuevo SOFT CORE opcional de diseño GUI bajo **Industry-Standard Feature Superset**. Exige identificar y justificar el conjunto de funciones y convenciones GUI industriales aplicables, conservar los controles y workflows existentes, añadir el objetivo solicitado sin regresiones, y comprobar accesibilidad, interacción y rendimiento con evidencia. Se activa selectivamente para tareas GUI; **los 7 HARD CORE permanecen intactos**, sin promoción de `v`.
+
 **Ampliación CHG-0004:** `LEADERSHIP_MATRIX.md` — liderazgo por decisión, asignación de roles, responsables y aprobadores, coordinación entre agentes y escalamiento al JUEZ. Se activa selectivamente y no concede permisos por sí solo.
 
 Todos se documentan como `DRAFT` y conservan la versión heredada `0.1` del paquete. Su existencia no concede permisos ni obliga a cargarlos en todas las conversaciones. `SIGNATURES.md` se declara obligatorio solo cuando una escritura está dentro de su alcance; la firma final y el validador que la haga cumplir continúan pendientes de migración según el `COMMUNICATION.md` original.

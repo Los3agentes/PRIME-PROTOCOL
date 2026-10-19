@@ -1,0 +1,37 @@
+{
+  "change_id": "CHG-0005",
+  "date": "2026-10-19",
+  "actor": "ChatGPT GPT-6 by OpenAI",
+  "authorization_id": "USER-REQUEST-ADD-GUI-DESIGN-SOFT-CORE-2026-10-19",
+  "reason": "Añadir GUI DESIGN como SOFT CORE opcional con Industry-Standard Feature Superset, feature parity GUI, preservación de comportamientos, extensiones y validación",
+  "signature": "ChatGPT GPT-6 by OpenAI: declarative attribution / USER-REQUEST-ADD-GUI-DESIGN-SOFT-CORE-2026-10-19",
+  "version_before": "0.1",
+  "version_after": "0.1",
+  "version_approval": null,
+  "verification": [
+    "Repository baseline hashes checked before edit",
+    "Structural check of SOFT CORE index, declaration, AGENT BOND paths and SHA-256 entries; Python validator not executed"
+  ],
+  "changed_files": [
+    {
+      "path": "README.md",
+      "sha256": "5266ffe8c6794cac73fa1a6500fc46665f4d0d745a6e475d2791fd047032f6ed"
+    },
+    {
+      "path": "SOFT-CORE/GUI_DESIGN.md",
+      "sha256": "80d651e1f364f07d919356eee051b38bc98ebeda8615527d7132f0fcff8b513b"
+    },
+    {
+      "path": "SOFT-CORE/INDEX.json",
+      "sha256": "96e979ac014959deedc9817df7278c3731b9f79a937d4a5ca52e13797e8cb271"
+    }
+  ],
+  "change_report": {
+    "new_module": "SOFT-CORE/GUI_DESIGN.md",
+    "registered_id": "PP-SC-GUI-DESIGN",
+    "activation": "SELECTIVE",
+    "existing_hard_core": "7 unchanged",
+    "user_objective": "Industry-Standard Feature Superset applied to GUI design",
+    "version_change": "none"
+  }
+}
