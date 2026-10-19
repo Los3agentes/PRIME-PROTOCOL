@@ -1,0 +1,18 @@
+{
+  "change_id": "CHG-0002",
+  "date": "YYYY-MM-DD",
+  "actor": "codex",
+  "authorization_id": "TASK-123",
+  "reason": "Fix bug",
+  "signature": "codex: textual attestation",
+  "verification": [
+    "pytest result or evidence pointer"
+  ],
+  "changed_files": [
+    {
+      "path": "PILOT/communication_worker.py",
+      "sha256": "sha256 of file"
+    }
+  ],
+  "version_approval": null
+}

@@ -1,0 +1,285 @@
+{
+  "schema": "prime.soft_index/1",
+  "default_policy": "SELECTIVE",
+  "enabled_by_default": false,
+  "modules": [
+    {
+      "id": "PP-SC-ADAPTATION",
+      "path": "SOFT-CORE/ADAPTATION.md",
+      "enabled_by_default": false,
+      "triggers": [
+        "failed experiment",
+        "new constraint",
+        "feedback cycle"
+      ],
+      "higher_priority": [
+        "HARD-CORE/*",
+        "USER_JUDGE_VERSION_AUTHORITY"
+      ],
+      "activation_requires": [
+        "task_relevance",
+        "controller_activation"
+      ]
+    },
+    {
+      "id": "PP-SC-ASSURANCE",
+      "path": "SOFT-CORE/ASSURANCE.md",
+      "enabled_by_default": false,
+      "triggers": [
+        "validation",
+        "release review",
+        "regression test"
+      ],
+      "higher_priority": [
+        "HARD-CORE/*",
+        "USER_JUDGE_VERSION_AUTHORITY"
+      ],
+      "activation_requires": [
+        "task_relevance",
+        "controller_activation"
+      ]
+    },
+    {
+      "id": "PP-SC-AUTONOMOUS-ACTION",
+      "path": "SOFT-CORE/AUTONOMOUS_ACTION.md",
+      "enabled_by_default": false,
+      "activation_requires": [
+        "explicit_task_authorization",
+        "bounded_execution_contract",
+        "controller_activation"
+      ],
+      "triggers": [
+        "authorized_multi_step_execution",
+        "delegated_probing",
+        "authorized_task_continuation"
+      ],
+      "higher_priority": [
+        "HARD-CORE/*",
+        "USER_JUDGE_VERSION_AUTHORITY"
+      ]
+    },
+    {
+      "id": "PP-SC-CONTEXT",
+      "path": "SOFT-CORE/CONTEXT.md",
+      "enabled_by_default": false,
+      "triggers": [
+        "project setup",
+        "context handoff",
+        "scope ambiguity"
+      ],
+      "higher_priority": [
+        "HARD-CORE/*",
+        "USER_JUDGE_VERSION_AUTHORITY"
+      ],
+      "activation_requires": [
+        "task_relevance",
+        "controller_activation"
+      ]
+    },
+    {
+      "id": "PP-SC-CROSS-REFERENCES",
+      "path": "SOFT-CORE/CROSS_REFERENCES.md",
+      "enabled_by_default": false,
+      "triggers": [
+        "dependency mapping",
+        "research synthesis",
+        "change impact"
+      ],
+      "higher_priority": [
+        "HARD-CORE/*",
+        "USER_JUDGE_VERSION_AUTHORITY"
+      ],
+      "activation_requires": [
+        "task_relevance",
+        "controller_activation"
+      ]
+    },
+    {
+      "id": "PP-SC-GOVERNANCE",
+      "path": "SOFT-CORE/GOVERNANCE.md",
+      "enabled_by_default": false,
+      "triggers": [
+        "approval routing",
+        "agent delegation",
+        "policy conflict"
+      ],
+      "higher_priority": [
+        "HARD-CORE/*",
+        "USER_JUDGE_VERSION_AUTHORITY"
+      ],
+      "activation_requires": [
+        "task_relevance",
+        "controller_activation"
+      ]
+    },
+    {
+      "id": "PP-SC-INTEGRATION",
+      "path": "SOFT-CORE/INTEGRATION.md",
+      "enabled_by_default": false,
+      "triggers": [
+        "cross-agent handoff",
+        "repository synchronization",
+        "API or tool bridge"
+      ],
+      "higher_priority": [
+        "HARD-CORE/*",
+        "USER_JUDGE_VERSION_AUTHORITY"
+      ],
+      "activation_requires": [
+        "task_relevance",
+        "controller_activation"
+      ]
+    },
+    {
+      "id": "PP-SC-LEADERSHIP-MATRIX",
+      "path": "SOFT-CORE/LEADERSHIP_MATRIX.md",
+      "enabled_by_default": false,
+      "triggers": [
+        "multi_agent_orchestration",
+        "decision_rights",
+        "leadership_handoff",
+        "delegation_conflict",
+        "approval_escalation"
+      ],
+      "higher_priority": [
+        "HARD-CORE/*",
+        "USER_JUDGE_VERSION_AUTHORITY"
+      ],
+      "activation_requires": [
+        "task_relevance",
+        "controller_activation"
+      ]
+    },
+    {
+      "id": "PP-SC-LORE",
+      "path": "SOFT-CORE/LORE.md",
+      "enabled_by_default": false,
+      "triggers": [
+        "project identity",
+        "narrative design",
+        "historical names"
+      ],
+      "higher_priority": [
+        "HARD-CORE/*",
+        "USER_JUDGE_VERSION_AUTHORITY"
+      ],
+      "activation_requires": [
+        "task_relevance",
+        "controller_activation"
+      ]
+    },
+    {
+      "id": "PP-SC-NOMENCLATURE",
+      "path": "SOFT-CORE/NOMENCLATURE.md",
+      "enabled_by_default": false,
+      "triggers": [
+        "term resolution",
+        "schema naming",
+        "renaming proposals"
+      ],
+      "higher_priority": [
+        "HARD-CORE/*",
+        "USER_JUDGE_VERSION_AUTHORITY"
+      ],
+      "activation_requires": [
+        "task_relevance",
+        "controller_activation"
+      ]
+    },
+    {
+      "id": "PP-SC-OBSERVABILITY",
+      "path": "SOFT-CORE/OBSERVABILITY.md",
+      "enabled_by_default": false,
+      "triggers": [
+        "instrumentation",
+        "long task",
+        "failure investigation"
+      ],
+      "higher_priority": [
+        "HARD-CORE/*",
+        "USER_JUDGE_VERSION_AUTHORITY"
+      ],
+      "activation_requires": [
+        "task_relevance",
+        "controller_activation"
+      ]
+    },
+    {
+      "id": "PP-SC-PLANNING",
+      "path": "SOFT-CORE/PLANNING.md",
+      "enabled_by_default": false,
+      "triggers": [
+        "multi-step task",
+        "milestone planning",
+        "blocked dependency"
+      ],
+      "higher_priority": [
+        "HARD-CORE/*",
+        "USER_JUDGE_VERSION_AUTHORITY"
+      ],
+      "activation_requires": [
+        "task_relevance",
+        "controller_activation"
+      ]
+    },
+    {
+      "id": "PP-SC-POPCULTURE",
+      "path": "SOFT-CORE/POPCULTURE.md",
+      "enabled_by_default": false,
+      "triggers": [
+        "inspiration",
+        "analogy exploration",
+        "creative naming"
+      ],
+      "higher_priority": [
+        "HARD-CORE/*",
+        "USER_JUDGE_VERSION_AUTHORITY"
+      ],
+      "activation_requires": [
+        "task_relevance",
+        "controller_activation"
+      ]
+    },
+    {
+      "id": "PP-SC-RESOURCES",
+      "path": "SOFT-CORE/RESOURCES.md",
+      "enabled_by_default": false,
+      "triggers": [
+        "environment probe",
+        "dependency planning",
+        "budget preflight"
+      ],
+      "higher_priority": [
+        "HARD-CORE/*",
+        "USER_JUDGE_VERSION_AUTHORITY"
+      ],
+      "activation_requires": [
+        "task_relevance",
+        "controller_activation"
+      ]
+    },
+    {
+      "id": "PP-SC-SIGNATURES",
+      "path": "SOFT-CORE/SIGNATURES.md",
+      "enabled_by_default": false,
+      "triggers": [
+        "behavioral MD write",
+        "Python source write",
+        "signed change review"
+      ],
+      "higher_priority": [
+        "HARD-CORE/*",
+        "USER_JUDGE_VERSION_AUTHORITY"
+      ],
+      "mandatory_when": [
+        "write_behavioral_prime_md",
+        "write_governed_python_source"
+      ],
+      "activation_requires": [
+        "governed_write_task",
+        "canonical_signature_format_verified"
+      ]
+    }
+  ],
+  "notes": "Existing AUTONOMOUS_ACTION is opt-in. SIGNATURES is mandatory-on-write in scope; no blanket activation of remaining modules. Modules are DRAFT under legacy 0.1 format pending migration. LEADERSHIP MATRIX is optional and cannot grant or transfer authority without a task-level delegation."
+}

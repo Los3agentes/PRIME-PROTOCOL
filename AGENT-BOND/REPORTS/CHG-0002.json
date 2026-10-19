@@ -1,0 +1,20 @@
+{
+  "change_id": "CHG-0002",
+  "date": "2026-10-19T10:43:45+00:00",
+  "actor": "ChatGPT GPT-6 by OpenAI",
+  "authorization_id": "USER-REQUEST-UPDATE-PRIME-LIBRARY-2026-10-19",
+  "reason": "Documentar conexión GitHub verificada, decisiones aprobadas y divergencias pendientes sin sustituir archivos de Library",
+  "signature": "ChatGPT GPT-6 by OpenAI: declarative attribution / USER-REQUEST-UPDATE-PRIME-LIBRARY-2026-10-19",
+  "version_before": "0.1",
+  "version_after": "0.1",
+  "version_approval": null,
+  "verification": [
+    "local structural bond validation; independent tests run separately"
+  ],
+  "changed_files": [
+    {
+      "path": "README.md",
+      "sha256": "2eef91de0c213aa1a56c36c187308cb716ae539e25037c2c6d9b718cb132ba54"
+    }
+  ]
+}

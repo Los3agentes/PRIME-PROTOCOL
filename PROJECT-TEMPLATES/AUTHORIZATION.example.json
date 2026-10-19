@@ -1,0 +1,19 @@
+{
+  "mission_id": "TASK-123",
+  "actor": "codex",
+  "authorization_id": "USER-APPROVAL-123",
+  "objective": "Scoped patch with tests",
+  "allowed_paths": [
+    "HARD-CORE/COMMUNICATION.md",
+    "PILOT/communication_worker.py"
+  ],
+  "allowed_operations": [
+    "read",
+    "edit",
+    "test"
+  ],
+  "max_steps": 20,
+  "max_tool_calls": 40,
+  "expires_at": null,
+  "juez_version_approval": null
+}
