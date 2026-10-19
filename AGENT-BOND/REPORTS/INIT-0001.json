@@ -1,0 +1,109 @@
+{
+  "change_id": "INIT-0001",
+  "date": "2026-10-19T06:02:00-04:00",
+  "actor": "ChatGPT-Orchestrator",
+  "authorization_id": "USER-REQUEST-2026-10-19",
+  "reason": "Build PRIME PROTOCOL v0.1 draft ZIP and add AUTONOMOUS ACTION soft core",
+  "signature": "ChatGPT-Orchestrator: declarative attribution / USER-REQUEST-2026-10-19",
+  "version_before": null,
+  "version_after": "0.1",
+  "version_approval": "prior PRIME PROTOCOL v0.1 draft discussion; NOT a formal JUEZ release approval",
+  "verification": [
+    "python -m unittest discover -s TESTS -v",
+    "python scripts/validate_bond.py ."
+  ],
+  "changed_files": [
+    {
+      "path": ".gitignore",
+      "sha256": "82082fe0abde6ceab3f04b60c2f4f0727f40218e617aaf3fb340686419fde419"
+    },
+    {
+      "path": "AGENT-BOND/AGENT_BOND.md",
+      "sha256": "aaae2b6077c7435a265b59025a08126c283a8aadaf997273533d00d9d3d20774"
+    },
+    {
+      "path": "AGENTS/ROLES.md",
+      "sha256": "e0ce3628650708a9346b7205ae577036c8454b1692a330013aa92598fda87d27"
+    },
+    {
+      "path": "HARD-CORE/COGNITION.md",
+      "sha256": "1a03b4579419b2a5dc35a460dc7ee0a4e765e2933b5b5e53b2e82573a7dcc84b"
+    },
+    {
+      "path": "HARD-CORE/COMMUNICATION.md",
+      "sha256": "d6fcd4802394bfa76057920037c7f70f53d73a76f5ad5c2c9762a5fdf8e433d1"
+    },
+    {
+      "path": "HARD-CORE/CONTINUITY.md",
+      "sha256": "c92d033e980f2124d330fdcbf5055711aed20a2863e867fd86cadeef1e6ea0b6"
+    },
+    {
+      "path": "HARD-CORE/CREATIVITY.md",
+      "sha256": "3682c062cb7b70683856c8ccb048ff44de256304d0f45fa9c072611b99140838"
+    },
+    {
+      "path": "HARD-CORE/DELIVERABLES.md",
+      "sha256": "c551b6fd2b333c1e7dd0365ae7c888fac57e9500997305c705e9beb8ccc5ba81"
+    },
+    {
+      "path": "HARD-CORE/EXECUTION.md",
+      "sha256": "41eabf618ef2ce903eb2de69fdd48e1e212a52788f589e23c6fcf182f788f875"
+    },
+    {
+      "path": "HARD-CORE/REFERENCES.md",
+      "sha256": "3fa2f7f2eabaf51bbc9f8db0fc18071cfcf486c28fb330ba7f1fad1918412759"
+    },
+    {
+      "path": "PILOT/TEST_PLAN.md",
+      "sha256": "9d3f2c53feadc6b37f52476c6459a67d73633380ca38b5875e63bdb67b363719"
+    },
+    {
+      "path": "PILOT/communication_worker.py",
+      "sha256": "456fe5d450116104367522f7269f287d0f0066d6896f8f41ad93699829791b0f"
+    },
+    {
+      "path": "PROJECT-TEMPLATES/AUTHORIZATION.example.json",
+      "sha256": "84e37b7044e3a01d4f9d427ad7c026cec6de107ed4d9d32e9fc9b407c51c7fc9"
+    },
+    {
+      "path": "PROJECT-TEMPLATES/CHANGELOG.csv",
+      "sha256": "92d89e7a91ce6f5fe6c0325cd55c7f2500d42d06620fe213c20f6502701937a9"
+    },
+    {
+      "path": "PROJECT-TEMPLATES/REPORT.example.json",
+      "sha256": "6ef0e74cf32f383cc526c6745f6880e9c9768550ee30b725169b091afeb2de99"
+    },
+    {
+      "path": "README.md",
+      "sha256": "369754ec70bb505688d8fba731a5274f721e35bd0d57892d920b616c4eb91a4a"
+    },
+    {
+      "path": "SOFT-CORE/AUTONOMOUS_ACTION.md",
+      "sha256": "c377f208e0267bf7bdc5bff2082660023922b33c1a16e9b4074c149e24be5148"
+    },
+    {
+      "path": "SOFT-CORE/INDEX.json",
+      "sha256": "ae5950e896bad00f10e8506c6f288acd540cb5e8ca6a08f8bda4f6f385cc8c32"
+    },
+    {
+      "path": "TESTS/test_agent_bond.py",
+      "sha256": "1dcab7d7df79189d35f6b66aa5d49b2352d0c67f0326905c752f2f34f1e3cde5"
+    },
+    {
+      "path": "TESTS/test_pilot.py",
+      "sha256": "8be16acf716713944e56962db98fbd575c84781f843446348d3e61369d12c927"
+    },
+    {
+      "path": "VERSION.json",
+      "sha256": "045438b99aeb035c8e807964e372076ee2c6f15806a7436736ed7e45b962b054"
+    },
+    {
+      "path": "scripts/record_change.py",
+      "sha256": "4ed254d2f9895a5bafc43beb4f11609a2ecfcfe9655def57906f69aed625e685"
+    },
+    {
+      "path": "scripts/validate_bond.py",
+      "sha256": "37c267f9f24f5b81dc2c28999edbf4b67d8e9301892a31e1625fd3b06b45b47f"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "change_id": "CHG-0004",
+  "date": "2026-10-19T12:17:49+00:00",
+  "actor": "ChatGPT GPT-6 by OpenAI",
+  "authorization_id": "USER-REQUEST-ADD-LEADERSHIP-MATRIX-2026-10-19",
+  "reason": "Añadir LEADERSHIP MATRIX como nuevo SOFT CORE opcional para responsabilidad, delegación, autoridad, coordinación multiagente y escalamiento bajo el JUEZ",
+  "signature": "ChatGPT GPT-6 by OpenAI: declarative attribution / USER-REQUEST-ADD-LEADERSHIP-MATRIX-2026-10-19",
+  "version_before": "0.1",
+  "version_after": "0.1",
+  "version_approval": null,
+  "verification": [
+    "python scripts/validate_bond.py .",
+    "python -m unittest discover -s TESTS -v",
+    "index includes new module with enabled_by_default=false"
+  ],
+  "changed_files": [
+    {
+      "path": "README.md",
+      "sha256": "edc2c4883f13fb64dc40e523e3ec5f3b33c8d379980ffe3f815105953c735202"
+    },
+    {
+      "path": "SOFT-CORE/LEADERSHIP_MATRIX.md",
+      "sha256": "dc7d8d785685241df792d3ac2097865c7d17c52efc18514443b08ee93ff4e1cb"
+    },
+    {
+      "path": "SOFT-CORE/INDEX.json",
+      "sha256": "68e563be50b39d6ed97377cb6bbcfc180f1f39f13092262984434dd9d619d95a"
+    }
+  ],
+  "change_report": {
+    "new_module": "SOFT-CORE/LEADERSHIP_MATRIX.md",
+    "registered_id": "PP-SC-LEADERSHIP-MATRIX",
+    "activation": "SELECTIVE",
+    "authority": "USER/JUEZ retains reserved decisions",
+    "unchanged": "Existing 14 SOFT CORE and all 7 HARD CORE unchanged; no v promotion",
+    "index": "SOFT-CORE/INDEX.json extended with leadership triggers",
+    "readme": "Added CHG-0004 module description"
+  }
+}

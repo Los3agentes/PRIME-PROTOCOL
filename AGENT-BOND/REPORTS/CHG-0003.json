@@ -1,0 +1,76 @@
+{
+  "change_id": "CHG-0003",
+  "date": "2026-10-19T12:04:51+00:00",
+  "actor": "ChatGPT GPT-6 by OpenAI",
+  "authorization_id": "USER-REQUEST-ADD-MISSING-SOFT-CORES-2026-10-19",
+  "reason": "Añadir 13 SOFT CORE faltantes, completar índice de carga selectiva y registrar las firmas y cambios sin alterar los HARD CORE ni AUTONOMOUS ACTION",
+  "signature": "ChatGPT GPT-6 by OpenAI: declarative attribution / USER-REQUEST-ADD-MISSING-SOFT-CORES-2026-10-19",
+  "version_before": "0.1",
+  "version_after": "0.1",
+  "version_approval": null,
+  "verification": [
+    "local structural bond validation; independent tests run separately"
+  ],
+  "changed_files": [
+    {
+      "path": "README.md",
+      "sha256": "95e19dfca7fbb499d490b228b3e7ad7c1d90fb6dd84dfcbc9c48eb165e805490"
+    },
+    {
+      "path": "SOFT-CORE/ADAPTATION.md",
+      "sha256": "e5ee27a8a9520cfc8dc7a597464d2a3bf4f0140bf0b4c21592e3b536e46f4464"
+    },
+    {
+      "path": "SOFT-CORE/ASSURANCE.md",
+      "sha256": "2b2150c182aaf0019dd96f8e74edb9cd836c7926850775dc96520a04656e54de"
+    },
+    {
+      "path": "SOFT-CORE/CONTEXT.md",
+      "sha256": "50674b4430a773daf9831569ce82305bc775e501107c1626385e3753eecfabbe"
+    },
+    {
+      "path": "SOFT-CORE/CROSS_REFERENCES.md",
+      "sha256": "1a1ff9c622d0e4e8f65eed9a50e8881649ff992a27abb83b35c54f54f38b0a4d"
+    },
+    {
+      "path": "SOFT-CORE/GOVERNANCE.md",
+      "sha256": "e1b6df263b1d28dbd74186d7e58c27ef66f93fac2c8f6fdda31eac2c13fc7fdb"
+    },
+    {
+      "path": "SOFT-CORE/INDEX.json",
+      "sha256": "2c2024ad1a03502ff768f10b4192423bf39973923437950af56a4bc98efadb03"
+    },
+    {
+      "path": "SOFT-CORE/INTEGRATION.md",
+      "sha256": "f136f69909e8b8bf1d534804dc092fa5b2cccc202dd6c9a65203cd7aea8db838"
+    },
+    {
+      "path": "SOFT-CORE/LORE.md",
+      "sha256": "8b84dc4cc81e653baf717296c41518952a1c3655d7e68021f91094ea3de8c12e"
+    },
+    {
+      "path": "SOFT-CORE/NOMENCLATURE.md",
+      "sha256": "4d74720b5b8b2b0ec36eccfe25ed9ef359ee94e023aabafc46fd56722b4a2281"
+    },
+    {
+      "path": "SOFT-CORE/OBSERVABILITY.md",
+      "sha256": "631c7d9e981488c7207f5b2e70f48d95c0aadfea9fdd687ba6989d301dd5fc66"
+    },
+    {
+      "path": "SOFT-CORE/PLANNING.md",
+      "sha256": "c09b984fca2f364f4fba49d3ad0658e5d1615ea0e3348d97dae2be69c6886a84"
+    },
+    {
+      "path": "SOFT-CORE/POPCULTURE.md",
+      "sha256": "7c5ff149ad791912e3041fa6a1d81e388163a0f27c09401a29fea1115ac4d579"
+    },
+    {
+      "path": "SOFT-CORE/RESOURCES.md",
+      "sha256": "a0749d6d9377d1032f27a2948774659c37ca26b9124acada9b0127967d033ca7"
+    },
+    {
+      "path": "SOFT-CORE/SIGNATURES.md",
+      "sha256": "0840a60b95f720bab194b6bf52e03f78fc48378fa13607b1f0295006d2c286f8"
+    }
+  ]
+}

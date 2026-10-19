@@ -1,0 +1,8 @@
+{
+  "name": "PRIME PROTOCOL",
+  "v": "0.1",
+  "status": "DRAFT",
+  "as_of": "2026-10-19",
+  "version_authority": "USER_JUDGE",
+  "A_semantics": "per-document agent revision; one increment per authorized changeset"
+}
