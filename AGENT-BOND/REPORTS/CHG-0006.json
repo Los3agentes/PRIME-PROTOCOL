@@ -1,0 +1,40 @@
+{
+  "change_id": "CHG-0006",
+  "date": "2026-10-19",
+  "actor": "ChatGPT GPT-6 by OpenAI",
+  "authorization_id": "USER-REQUEST-CODE-HARD-CORE-AND-GUI-SOFT-CORE-2026-10-19",
+  "reason": "Añadir Industry Standard Feature Set como HARD CORE para código, separado del GUI DESIGN SOFT CORE existente",
+  "signature": "ChatGPT GPT-6 by OpenAI: declarative attribution / USER-REQUEST-CODE-HARD-CORE-AND-GUI-SOFT-CORE-2026-10-19",
+  "version_before": "0.1",
+  "version_after": "0.1",
+  "version_approval": null,
+  "verification": [
+    "SHA-256 baseline matches manifest for inspected files",
+    "Structural content and registration check before commit",
+    "Python validation and unit tests NOT_EXECUTED in this environment"
+  ],
+  "changed_files": [
+    {
+      "path": "HARD-CORE/INDUSTRY_STANDARD_FEATURE_SET.md",
+      "sha256": "f0c22c2e46799642f9591a45f0ec5c8a87ea33c19d61635f9acf724a7b111f34"
+    },
+    {
+      "path": "README.md",
+      "sha256": "377f7530a888b385ef2e53b5574db5d5c63d5f07bd496cad187aa5a79519b833"
+    },
+    {
+      "path": "TESTS/test_agent_bond.py",
+      "sha256": "d6d24dac31d5a8665655426f6ca141d221d13c7e11344f06e9cc93c441227c4b"
+    },
+    {
+      "path": "scripts/validate_bond.py",
+      "sha256": "cdb788433d10a9a880a39a3552d3e66ccead7909df7438e83d673254d4f1174e"
+    }
+  ],
+  "change_report": {
+    "hard_core": "HARD-CORE/INDUSTRY_STANDARD_FEATURE_SET.md",
+    "gui_soft_core": "SOFT-CORE/GUI_DESIGN.md",
+    "gui_status": "Existing selective protocol preserved from CHG-0005",
+    "version": "unchanged 0.1 DRAFT"
+  }
+}

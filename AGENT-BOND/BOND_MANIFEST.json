@@ -1,7 +1,7 @@
 {
   "schema": "prime.agent_bond_manifest/1",
   "v": "0.1",
-  "change_count": 5,
+  "change_count": 6,
   "protocols": {
     "AGENT-BOND/AGENT_BOND.md": {
       "id": "PP-AB-BOND",
@@ -132,16 +132,21 @@
       "id": "PP-SC-GUI-DESIGN",
       "core": "SOFT",
       "A": 1
+    },
+    "HARD-CORE/INDUSTRY_STANDARD_FEATURE_SET.md": {
+      "id": "PP-HC-INDUSTRY-STANDARD-FEATURE-SET",
+      "core": "HARD",
+      "A": 0
     }
   },
   "files": {
     ".gitignore": "82082fe0abde6ceab3f04b60c2f4f0727f40218e617aaf3fb340686419fde419",
     "VERSION.json": "045438b99aeb035c8e807964e372076ee2c6f15806a7436736ed7e45b962b054",
-    "README.md": "5266ffe8c6794cac73fa1a6500fc46665f4d0d745a6e475d2791fd047032f6ed",
+    "README.md": "377f7530a888b385ef2e53b5574db5d5c63d5f07bd496cad187aa5a79519b833",
     "AGENTS/ROLES.md": "e0ce3628650708a9346b7205ae577036c8454b1692a330013aa92598fda87d27",
     "scripts/record_change.py": "4ed254d2f9895a5bafc43beb4f11609a2ecfcfe9655def57906f69aed625e685",
-    "scripts/validate_bond.py": "37c267f9f24f5b81dc2c28999edbf4b67d8e9301892a31e1625fd3b06b45b47f",
-    "TESTS/test_agent_bond.py": "1dcab7d7df79189d35f6b66aa5d49b2352d0c67f0326905c752f2f34f1e3cde5",
+    "scripts/validate_bond.py": "cdb788433d10a9a880a39a3552d3e66ccead7909df7438e83d673254d4f1174e",
+    "TESTS/test_agent_bond.py": "d6d24dac31d5a8665655426f6ca141d221d13c7e11344f06e9cc93c441227c4b",
     "TESTS/test_pilot.py": "8be16acf716713944e56962db98fbd575c84781f843446348d3e61369d12c927",
     "HARD-CORE/CREATIVITY.md": "3682c062cb7b70683856c8ccb048ff44de256304d0f45fa9c072611b99140838",
     "HARD-CORE/CONTINUITY.md": "c92d033e980f2124d330fdcbf5055711aed20a2863e867fd86cadeef1e6ea0b6",
@@ -172,13 +177,15 @@
     "PROJECT-TEMPLATES/CHANGELOG.csv": "92d89e7a91ce6f5fe6c0325cd55c7f2500d42d06620fe213c20f6502701937a9",
     "PROJECT-TEMPLATES/AUTHORIZATION.example.json": "84e37b7044e3a01d4f9d427ad7c026cec6de107ed4d9d32e9fc9b407c51c7fc9",
     "PROJECT-TEMPLATES/REPORT.example.json": "6ef0e74cf32f383cc526c6745f6880e9c9768550ee30b725169b091afeb2de99",
-    "PROJECTS/PRIME-PROTOCOL/CHANGELOG.csv": "bea85c2d7f250d4e53297b3b90de3e7fd92685526345451cc5f9e5abc66f76d7",
+    "PROJECTS/PRIME-PROTOCOL/CHANGELOG.csv": "6652778f49c51e62f4afac4e65b0c5176001e983348a4f9176a27b3b5df548ec",
     "AGENT-BOND/REPORTS/INIT-0001.json": "40da1e4c84ed8b47c417aabadfe0eda5f3a8ca32cc933a46d6cc2bd46029d32c",
     "AGENT-BOND/REPORTS/CHG-0003.json": "299a7dd2e1bf9fe5d12e35e0f9623aa7f9b22efa272c7484693852ce57140228",
     "AGENT-BOND/REPORTS/CHG-0002.json": "8ba2d68420fa3dd7dcb8674259729db70687226e4fd790d117737a6e07dd3547",
     "AGENT-BOND/REPORTS/CHG-0004.json": "076f7169fb9859f14913a69f5a54a9040fff1617a393070ff12b3a6901655b9c",
     "SOFT-CORE/GUI_DESIGN.md": "80d651e1f364f07d919356eee051b38bc98ebeda8615527d7132f0fcff8b513b",
-    "AGENT-BOND/REPORTS/CHG-0005.json": "d62f7503b6c47e005dacfc7074433bd71b199c82ee0086bd677d07f6eb5a542c"
+    "AGENT-BOND/REPORTS/CHG-0005.json": "d62f7503b6c47e005dacfc7074433bd71b199c82ee0086bd677d07f6eb5a542c",
+    "HARD-CORE/INDUSTRY_STANDARD_FEATURE_SET.md": "f0c22c2e46799642f9591a45f0ec5c8a87ea33c19d61635f9acf724a7b111f34",
+    "AGENT-BOND/REPORTS/CHG-0006.json": "a95ead06d77ea8f1f09a79289539be5f2ae547eee0711c4eb88511df2d41b008"
   },
   "WARNING": "Integrity/attribution only; editable local manifest does not prove identity or authorization."
 }

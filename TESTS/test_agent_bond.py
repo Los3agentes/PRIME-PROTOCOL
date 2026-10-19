@@ -28,6 +28,12 @@ class AgentBondTests(unittest.TestCase):
             r['signature']=''
             f.write_text(json.dumps(r),encoding='utf-8')
             self.assertTrue(validate(dst))
+    def test_code_standard_hard_core_required(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            dst=Path(tmp)/'PRIME-PROTOCOL'
+            shutil.copytree(ROOT,dst,ignore=shutil.ignore_patterns('__pycache__','.pytest_cache','*.pyc'))
+            (dst/'HARD-CORE/INDUSTRY_STANDARD_FEATURE_SET.md').unlink()
+            self.assertTrue(any('REQUIRED_MISSING' in e for e in validate(dst)))
     def test_soft_core_disabled_by_default(self):
         idx=json.loads((ROOT/'SOFT-CORE/INDEX.json').read_text(encoding='utf-8'))
         self.assertFalse(idx['enabled_by_default'])

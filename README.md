@@ -6,7 +6,7 @@ Shared behavioral protocols and agent governance system.
 
 ## Arquitectura
 
-- `HARD-CORE/`: 7 contratos base, siempre cargados cuando PRIME está activado: COMMUNICATION, COGNITION, CREATIVITY, REFERENCES, EXECUTION, DELIVERABLES, CONTINUITY.
+- `HARD-CORE/`: 8 contratos base, siempre cargados cuando PRIME está activado: COMMUNICATION, COGNITION, CREATIVITY, REFERENCES, EXECUTION, DELIVERABLES, CONTINUITY, INDUSTRY_STANDARD_FEATURE_SET.
 - `SOFT-CORE/`: carga selectiva. `AUTONOMOUS_ACTION.md` es un módulo de ejecución autónoma **opt-in**, nunca concedido por el mero hecho de que el archivo exista.
 - `AGENTS/`: autoridad, roles y fronteras.
 - `AGENT-BOND/`: reglas de firma, reporte, manifiesto hash y validador.
@@ -98,3 +98,9 @@ python scripts/record_change.py . --actor juez --authorization-id JUEZ-APPROVAL-
 - No se crea trabajo periódico ni se obtienen permisos externos automáticamente.
 - No se escribe en el repositorio remoto desde este paquete.
 - Se conserva la regla de una versión mayor/menor `v` bajo autoridad del JUEZ y revisiones agentivas `A` dentro de la autorización.
+
+## CHG-0006 — Separación CODE / GUI DESIGN
+
+- `HARD-CORE/INDUSTRY_STANDARD_FEATURE_SET.md`: contrato general obligatorio para **code**; paridad con el estándar aplicable, preservación de funcionalidades existentes y extensión del objetivo solicitado.
+- `SOFT-CORE/GUI_DESIGN.md`: contrato separado y **opt-in** para interfaces gráficas; aplica el mismo principio a UX, controles, accesibilidad y comportamiento visual. Incorporado en CHG-0005 y mantenido sin cambios aquí.
+- Ambos protocolos conviven; `v0.1` permanece en estado DRAFT bajo autoridad del USER/JUEZ.
